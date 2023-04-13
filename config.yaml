@@ -1,20 +1,20 @@
 publisher:
-  name: <<YOUR_PUBLISHER_NAME>>
+  name: Trailblazer Games
   address: ''
-  website: <<URL_OF_PUBLISHER_WEBSITE>>
-  email: <<EMAIL_ADDRESS_TO_CONTACT_PUBLISHER>>
+  website: https://www.trailblazer.games/
+  email: hello@trailblazer.games
   media:
     - purpose: icon
       uri: <<RELATIVE_PATH_TO_PUBLISHER_ICON>>
 app:
-  name: <<APP_NAME>>
+  name:  Eternal Dragons
   address: ''
   android_package: <<ANDROID_PACKAGE_NAME>>
   urls:
-    license_url: <<URL_OF_APP_LICENSE_OR_TERMS_OF_SERVICE>>
-    copyright_url: <<URL_OF_COPYRIGHT_DETAILS_FOR_APP>>
-    privacy_policy_url: <<URL_OF_APP_PRIVACY_POLICY>>
-    website: <<URL_OF_APP_WEBSITE>>
+    license_url: https://www.eternaldragons.com/terms-and-conditions-of-service
+    copyright_url: https://www.eternaldragons.com/terms-and-conditions-of-service
+    privacy_policy_url: https://www.eternaldragons.com/privacy-policy
+    website: https://www.eternaldragons.com/
   media:
     - purpose: icon
       uri: <<RELATIVE_PATH_TO_APP_ICON>>
@@ -31,10 +31,20 @@ release:
   catalog:
     en-US:
       name: <<APP_NAME>>
-      short_description: <<SHORT_APP_DESCRIPTION>>
-      long_description: <<LONG_APP_DESCRIPTION>>
-      new_in_version: <<WHATS_NEW_IN_THIS_VERSION>>
-      saga_features: <<ANY_FEATURES_ONLY_AVAILBLE_WHEN_RUNNING_ON_SAGA>>
+      short_description: Own and battle with mythical creatures
+      long_description: '''
+                        Are you ready to enter the next era of gaming? Eternal Dragons is here, and with the power of the Solana blockchain, players can experience a fantasy world like never before. In this world of dragons, anything is possible and players will write history together.
+                        In the Eternal Dragons auto-battler, players must strategically select their units each round and position them on the battlefield to gain an advantage over their opponent. With a variety of different dragons and minions to choose from, each with their own unique abilities and strengths, players must carefully construct their team to ensure victory.
+                        But the fun does not stop there. Eternal Dragons also offers a variety of different game modes, including three PvE options, PvP battles and Esports-style tournaments. Compete against other players from around the world to earn rewards and climb the leaderboards. With regular updates and new content, there is always something new and exciting to discover in the world of Eternal Dragons.
+                        Join the growing community of players who have already discovered the magic of Eternal Dragons. With a welcoming and supportive community, regular events and competitions, and endless hours of fun and excitement, there is never been a better time to enter the fray.
+                        '''
+      new_in_version: '''
+                      Hello and welcome to the first version of our app! We are thrilled to share our creation with you and hope you will enjoy using it as much as we enjoyed making it.
+                      Current game modes:
+                      - Dungeons: New to the game? Start here! Dungeons offer players an introductory experience to Battles. Go up against more forgiving opponents in order to experiment, learn and improve your battle strategy.
+                      - Hard Mode: Test your mettle against more difficult AI opponents. Facing more advanced strategies and ruthless Genesis Dragon enemies, this mode presents a more difficult challenge.
+                      - Quest Mode: Master your playstyle in this tournament inspired game mode. With a massive health pool and team compositions that are constantly changing, is it even possible to defeat this opponent?
+                      - Arena (PvP): In the Arena, players can go toe-to-toe and test their skills against live opponents. It is important to understand your unit s abilities in this mode and enter the fray with multiple strategies at hand. The competition is fierce, and with the introduction of turn timers, every decision must be made with swift precision.
+                      '''
 solana_mobile_dapp_publisher_portal:
-  google_store_package: <<ANDROID_PACKAGE_NAME_OF_GOOGLE_PLAY_STORE_VERSION_IF_DIFFERENT>>
   testing_instructions: <<TESTING_INSTRUCTIONS>>
