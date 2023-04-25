@@ -5,11 +5,11 @@ publisher:
   email: hello@trailblazer.games
   media:
     - purpose: icon
-      uri: <<RELATIVE_PATH_TO_PUBLISHER_ICON>>
+      uri: ./assets/icon/icon.png
 app:
   name:  Eternal Dragons
   address: ''
-  android_package: <<ANDROID_PACKAGE_NAME>>
+  android_package: com.eternaldragones.genesis
   urls:
     license_url: https://www.eternaldragons.com/terms-and-conditions-of-service
     copyright_url: https://www.eternaldragons.com/terms-and-conditions-of-service
@@ -17,20 +17,26 @@ app:
     website: https://www.eternaldragons.com/
   media:
     - purpose: icon
-      uri: <<RELATIVE_PATH_TO_APP_ICON>>
+      uri: ./assets/icon/icon.png
 release:
   address: ''
   media:
     - purpose: icon
-      uri: <<RELATIVE_PATH_TO_RELEASE_ICON>>
+      uri: ./assets/icon/icon.png
     - purpose: screenshot
-      uri: <<RELATIVE_PATH_TO_SCREENSHOT>>
+      uri: ./assets/screenshot/ed_1.png
+    - purpose: screenshot
+      uri: ./assets/screenshot/ed_2.png
+    - purpose: screenshot
+      uri: ./assets/screenshot/ed_3.png
+    - purpose: screenshot
+      uri: ./assets/screenshot/ed_4.png
   files:
     - purpose: install
-      uri: <<RELATIVE_PATH_TO_APK>>
+      uri: https://cdn.eternaldragons.com/apk/EternalDragons_02030_prod.apk
   catalog:
     en-US:
-      name: <<APP_NAME>>
+      name: Eternal Dragons
       short_description: Own and battle with mythical creatures
       long_description: '''
                         Are you ready to enter the next era of gaming? Eternal Dragons is here, and with the power of the Solana blockchain, players can experience a fantasy world like never before. In this world of dragons, anything is possible and players will write history together.
